@@ -2,7 +2,7 @@
 
 ![nodejs-reactjs-boilerplate2.png](https://github.com/kkamara/useful/blob/main/nodejs-reactjs-boilerplate2.png?raw=true)
 
-# nodejs-reactjs-boilerplate [![Tests Pipeline](https://github.com/kkamara/nodejs-reactjs-boilerplate/actions/workflows/node.js.yml/badge.svg)](https://github.com/kkamara/nodejs-reactjs-boilerplate/actions/workflows/node.js.yml)
+# admin-app-at-slash-admin [![Tests Pipeline](https://github.com/kkamara/admin-app-at-slash-admin/actions/workflows/node.js.yml/badge.svg)](https://github.com/kkamara/admin-app-at-slash-admin/actions/workflows/node.js.yml)
 
 (22-Jun-2021) An MVC NodeJS boilerplate with ReactJS 19 Redux SPA.
 
@@ -31,9 +31,9 @@
 
 [Get Postman HTTP client](https://www.postman.com).
 
-[Postman API Collection for NodeJS ReactJS Boilerplate](https://github.com/kkamara/nodejs-reactjs-boilerplate/blob/main/nodejs-reactjs-boilerplate.postman_collection.json).
+[Postman API Collection for NodeJS ReactJS Boilerplate](https://github.com/kkamara/admin-app-at-slash-admin/blob/main/admin-app-at-slash-admin.postman_collection.json).
 
-[Postman API Environment for NodeJS ReactJS Boilerplate](https://github.com/kkamara/nodejs-reactjs-boilerplate/blob/main/nodejs-reactjs-boilerplate.postman_environment.json).
+[Postman API Environment for NodeJS ReactJS Boilerplate](https://github.com/kkamara/admin-app-at-slash-admin/blob/main/admin-app-at-slash-admin.postman_environment.json).
 
 ## Important Note
 
@@ -72,7 +72,7 @@ yarn build
 
 #### Sequelize tutorial
 
-See [package.json](https://github.com/kkamara/nodejs-reactjs-boilerplate/blob/main/package.json) for helpful commands related to using the database.
+See [package.json](https://github.com/kkamara/admin-app-at-slash-admin/blob/main/package.json) for helpful commands related to using the database.
 
 ```bash
 # Docs:
@@ -135,7 +135,7 @@ docker-compose up --build -d
 
 ![docker-mailhog.png](https://raw.githubusercontent.com/kkamara/useful/main/docker-mailhog.png)
 
-Mail environment credentials are at [.env.docker](https://raw.githubusercontent.com/kkamara/nodejs-reactjs-boilerplate/main/.env.docker).
+Mail environment credentials are at [.env.docker](https://raw.githubusercontent.com/kkamara/admin-app-at-slash-admin/main/.env.docker).
 
 The [Mailhog](https://github.com/mailhog/MailHog) Docker image runs at `http://localhost:8025`in this app.
 
