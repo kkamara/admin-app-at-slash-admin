@@ -1,0 +1,42 @@
+$brandingSuccessColor: #fe4d21;
+$brandingDefaultBorderColor: #820ce8;
+
+.admin-success {
+  background-color: $brandingSuccessColor !important;
+  color: #000 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.admin-success:hover {
+  background-color: #3e4999 !important;
+  color: #fff !important;
+}
+
+.admin-btn {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: $brandingDefaultBorderColor !important;
+}
+
+.admin-btn:hover {
+  background-color: #3e4999 !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+
+.admin-success:hover {
+  background-color: #3e4999 !important;
+  color: #fff !important;
+}
+
+.admin-danger-btn {
+  background-color: red !important;
+  color: #fff !important;
+  border-style: none !important;
+}
+
+.admin-danger-btn:hover {
+  background-color: #3e4999 !important;
+  color: #fff !important;
+}

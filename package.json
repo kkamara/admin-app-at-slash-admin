@@ -8,6 +8,7 @@
     "start": "cross-env DEBUG=express:* yarn node src/app.js",
     "dev": "cross-env DEBUG=express:* yarn nodemon src/app.js --trace-warnings --legacy-watch",
     "dev:frontend": "concurrently \"cross-env DEBUG=express:* yarn nodemon src/app.js --trace-warnings\" \"cd frontend && yarn start\"",
+    "dev:frontend:all": "concurrently \"cross-env DEBUG=express:* yarn nodemon src/app.js --trace-warnings\" \"cd frontend && yarn start\" \"cd adminFrontend && yarn start\"",
     "model:generate": "cross-env NODE_ENV=development npx sequelize-cli model:generate",
     "migration:generate": "cross-env NODE_ENV=development npx sequelize-cli migration:generate",
     "seed:generate": "cross-env NODE_ENV=development npx sequelize-cli seed:generate",

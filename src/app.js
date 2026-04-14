@@ -31,8 +31,23 @@ app.set('views', path.join(
 ));
 
 app.use(express.static("public"));
-app.use('/static', express.static("frontend/build/static"));
-app.get('/*', express.static('frontend/build'));
+
+const adminBuildPath = path.join(__dirname, '../adminFrontend/build');
+app.use('/admin/static', express.static(path.join(adminBuildPath, 'static'), {
+  index: false,
+  redirect: false,
+  fallthrough: false,
+}));
+app.use('/admin/dashboard', express.static(path.join(adminBuildPath, 'dashboard'), {
+  index: false,
+  redirect: false,
+  fallthrough: false,
+}));
+app.use('/admin', express.static(adminBuildPath, {
+  index: false,
+  redirect: false,
+}));
+app.use(express.static(path.join(__dirname, '../frontend/build')));
 
 if ('production' === config.nodeEnv) {
   app.use(minifyHTML);
@@ -50,6 +65,12 @@ app.use(setUserTimezone);
 app.use('/', routes);
 
 // Serve ReactJS app routes
+app.get('/admin', (req, res) => {
+  res.sendFile(path.join(adminBuildPath, 'index.html'));
+});
+app.get("/admin/*", (req, res) => {
+  res.sendFile(path.join(adminBuildPath, 'index.html'));
+});
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../frontend/build", "index.html"));
 });

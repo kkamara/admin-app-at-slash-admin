@@ -1,6 +1,6 @@
-![nodejs-reactjs-boilerplate.png](https://github.com/kkamara/useful/blob/main/nodejs-reactjs-boilerplate.png?raw=true)
+![admin-app-at-slash-admin.png](https://github.com/kkamara/useful/blob/main/admin-app-at-slash-admin.png?raw=true)
 
-![nodejs-reactjs-boilerplate2.png](https://github.com/kkamara/useful/blob/main/nodejs-reactjs-boilerplate2.png?raw=true)
+![admin-app-at-slash-admin2.png](https://github.com/kkamara/useful/blob/main/admin-app-at-slash-admin2.png?raw=true)
 
 # admin-app-at-slash-admin [![Tests Pipeline](https://github.com/kkamara/admin-app-at-slash-admin/actions/workflows/node.js.yml/badge.svg)](https://github.com/kkamara/admin-app-at-slash-admin/actions/workflows/node.js.yml)
 
@@ -119,6 +119,14 @@ yarn dev
 
 ```bash
 yarn dev:frontend
+```
+
+#### Reload server and all frontend apps on project files change
+
+```bash
+yarn dev:frontend:all
+# http://localhost:3000
+# http://localhost:3001/admin
 ```
 
 <a name="using-docker"></a>

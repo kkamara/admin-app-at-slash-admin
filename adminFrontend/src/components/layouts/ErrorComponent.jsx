@@ -1,0 +1,18 @@
+import React from 'react'
+
+function Error({ error, }) {
+  if (!error || "Token not set." === error) {
+    return null
+  }
+  
+  return (
+    <div>
+      <div className="alert alert-warning alert-dismissible fade show" role="alert">
+        {error}
+        <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+  )
+}
+
+export default Error
