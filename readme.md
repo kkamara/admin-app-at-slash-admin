@@ -4,7 +4,7 @@
 
 # admin-app-at-slash-admin [![Tests Pipeline](https://github.com/kkamara/admin-app-at-slash-admin/actions/workflows/node.js.yml/badge.svg)](https://github.com/kkamara/admin-app-at-slash-admin/actions/workflows/node.js.yml)
 
-(22-Jun-2021) An MVC NodeJS boilerplate with ReactJS 19 Redux SPA.
+(14-Apr-2026) This is an example of how to have an admin app at /admin path with ExpressJS routing.
 
 * [Using Postman?](#postman)
 

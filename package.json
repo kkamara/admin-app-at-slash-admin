@@ -1,7 +1,7 @@
 {
   "name": "admin-app-at-slash-admin",
   "version": "0.1.0",
-  "description": "(22-Jun-2021) An MVC NodeJS boilerplate with ReactJS 19 Redux SPA.",
+  "description": "(14-Apr-2026) This is an example of how to have an admin app at /admin path with ExpressJS routing.",
   "main": "src/app.js",
   "scripts": {
     "test": "mocha tests/**/{,**/}*.js",
